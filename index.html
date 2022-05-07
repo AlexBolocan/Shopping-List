@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shopping List</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="jvscript.js"></script>
+  </head>
+  <body id="bodyStyle" onload="draw()">
+    <form onsubmit="addItem(event)" id="idForm" class="formStyle">
+      <div class="listTitle "><b>SHOPPING LIST</b></div>
+      <div>
+        <input type="text" class="inputStyle fontSize" title="itemDescription" name="nume" />
+        <input type="submit" class="buttonAddStyle fontSize" value="Add item"/>
+      </div>
+      <div>
+        <input type="button" onclick="sortAsc('title')" class="buttonSortStyle fontSize" value="Sort asc"/>
+        <input type="button" onclick="sortDesc('title')" class="buttonSortStyle fontSize" value="Sort des"/>
+      </div>
+      </form>
+      <table  id="idTable" class="formStyle showTableHead" >
+        <thead >
+          <tr class="fontSize">
+            <td >Item description</td>
+            <td>Action</td>
+          </tr>
+          <tbody >
+          </tbody>
+        </thead>
+      </table>
+  </body>
+</html>

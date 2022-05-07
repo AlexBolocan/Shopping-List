@@ -1,0 +1,48 @@
+#bodyStyle {
+  background-color: rgb(226, 166, 226);
+
+}
+.listTitle {
+  font-size: 40px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin: 30px;
+}
+.formStyle {
+  margin: 0vw 20vw;
+  padding: 20px 10vw;
+  font-size: 10px;
+  background-color: rgb(231, 226, 210);
+}
+.buttonAddStyle {
+  margin-top: 10px;
+  height: 30px;
+  background-color: rgb(83, 177, 106);
+  border-radius: 5px;
+  border: none;
+}
+.buttonSortStyle {
+  margin-top: 10px;
+  height: 30px;
+  background-color: rgb(206, 84, 200);
+  border-radius: 5px;
+  border: none;
+}
+.showTableHead {
+  display: none;
+}
+.buttonBuyed {
+  background: rgb(223, 119, 119);
+  border: 1px;
+  border-radius: 5px;
+  font-size: 2em;
+}
+.inputStyle{
+  width: auto;
+  height: 20px;
+}
+.fontSize {
+  font-size: 20px;
+}
+.itemBuyed{
+  text-decoration: line-through;
+}
